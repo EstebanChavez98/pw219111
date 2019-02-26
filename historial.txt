@@ -9,3 +9,14 @@ Author: Esteban Chavez Verdin <esteban.ch.v95@gmail.com>
 Date:   Mon Feb 18 11:44:43 2019 -0700
 
     Inicio de proyecto - Commit inicial
+
+
+---------------
+Etiquetas HTML5
+	* Semanticas -> Buscadores
+Buscadores: Google, Yahoo, Bing, etc.
+
+Robots: 
+	robots.txt. -> Poner un listado de paginas para que el buscador no los escanee
+
+SEO = Search Engine Optimization
