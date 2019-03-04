@@ -20,3 +20,4 @@ Robots:
 	robots.txt. -> Poner un listado de paginas para que el buscador no los escanee
 
 SEO = Search Engine Optimization
+---------------
