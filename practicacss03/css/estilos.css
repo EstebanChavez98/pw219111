@@ -1,26 +1,153 @@
 body{
-	min-width: 1290px;
-	max-width: 1290px;
+	background: #2B2929;
+	font-size: 16px;
+	margin: 0px auto;
+	max-width: 1024px;
 }
-#primerSecc{
-	background: black;
+header{
+	background: #EEEBEA;
+	padding-bottom: 20px;
 }
-#primerSecc article{
+header input{
+	background: #EEEBEA;
+	border: 1px solid lightgray;
+	float: left;
+	font-weight: bold;
+	margin-left: 70px;
+	margin-top: 10px;
+	padding-left: 65px;
+	position: relative;
+	width: 12%
+}
+header img{
+	margin-top: -25px;
+	padding-left: 232px;
+	position: relative;
+	width: 75%;
+}
+#artFooter01{
+	margin-left: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#artFooter02{
+	margin-left: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#artFooter03{
+	margin-left: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#caracter{
+	float: right;
+	opacity: 0.5;
+	padding-top: 30px;
+	position: relative;
+}
+#caracter1{
+	float: right;
+	opacity: 0.5;
+	padding-top: 38px;
+	position: relative;
+}
+#caracter2{
+	float: right;
+	opacity: 0.5;
+	padding-top: -10px;
+	position: relative;
+}
+#primerSeccion{
+	background: #2B2929;
+	margin-top: 15px;
+}
+#primerSeccion article{
+	height: 270px;
 	display: inline-block;
-	width: 15%;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	vertical-align: top;
+	width: 17.2%;
 }
-#secc01art01{
-	width: 30%;1
-}
-#logo{
+#primerSeccion article img{
 	width: 80%;
 }
-.letragrande{
-	font-size: 2em;
+#primerSeccion ul{
+	list-style: none;
 }
-.colorgris{
-	color: gray;
+#secc01art01{
+	background: #2B2929;
+}
+#secc01art02{
+	background: #A4CD3B;
+	margin-left: 35px;
+}
+#secc01art03{
+	background: #63655C;
+	color: #A7A2A2;
+	margin-left: -10px;
+}
+#secc01art04{
+	background: #D82A2A;
+	margin-left: -10px;
+}
+#secc01art05{
+	background: #EAE7E7;
+	margin-left: -10px;
+}
+#segundaSeccion{
+	background: #353333;
+	border-top: 1px solid gray;
+	padding-bottom: 10px;
+}
+#segundaSeccion article{
+	display: inline-block;
+	width: 33%;
+}
+#segundaSeccion article img{
+	padding-top: 20px;
+	padding-left: 65px;
+	position: relative;
+	width: 75%;
+}
+#seccFooter{
+	background: #353333;
+}
+#seccFooter article{
+	border-top: 1px dashed gray;
+	display: inline-block;
+	/*padding-left: 50px;*/
+	padding-top: 10px;
+	vertical-align: top;
+	width: 25%;
+}
+.colorazulito{
+	color: #99CAEC;
 }
 .colorblanco{
 	color: white;
+}
+.colorgris{
+	color: #969191;
+}
+.colorgrisbajo{
+	color: #BCBABA;
+}
+.destacado{
+  margin-left: 182px;
+}
+.grande{
+	font-size: 1.4em;
+}
+.letrachica{
+	font-size: 0.75em;
+}
+.letragrande{
+	font-size: 1.6em;
+}
+.nito{
+	font-weight: bold;
 }
