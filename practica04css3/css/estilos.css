@@ -10,9 +10,6 @@ header section article nav ul li{
 header{
 	border-bottom: 2px gray dashed;
 }
-footer{
-	border-top: 2px gray dashed;
-}
 #SeccionHeader article{
 	display: inline-block;
 }
@@ -89,10 +86,19 @@ footer{
 
 }
 #seccFoo02art01 article{
-	margin: 0px auto;
-	display:inline-block;
+	display: inline-block;
 	text-align: center;
-	width:17%;
+	width: 17%;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#seccFoo02art02 article{
+	display: inline-block;
+	vertical-align: top;
+	width: 19%;
+}
+#seccFoo02art02 article ul li{
+	list-style: none;
 }
 .letragrande{
 	font-size: 4em;
@@ -102,4 +108,7 @@ footer{
 }
 .soloimagen{
 	padding-top: 30px;
+}
+.borde{
+	border-bottom: 2px gray dashed;
 }
