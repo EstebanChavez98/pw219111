@@ -1,0 +1,105 @@
+body{
+	margin: 0px auto;
+	max-width: 1024px;
+	max-height: 1024px;
+}
+header section article nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+header{
+	border-bottom: 2px gray dashed;
+}
+footer{
+	border-top: 2px gray dashed;
+}
+#SeccionHeader article{
+	display: inline-block;
+}
+#secc01art01{
+	width: 60%;
+}
+#secc01art02{
+	width: 39%;
+}
+#secc01art02 article img{
+	width: 26%;
+}
+#header1{
+	float: right;
+}
+#secc01art02 article img[src="img/go_to_shop.png"]{
+	width:50%;
+}
+#secc01art02 article img[src="img/buy.png"]{
+	width:20%;
+}
+#GoToShop{
+	margin-bottom: 50px;
+	/*margin-right: 50px;*/
+}
+#buy{
+	margin-top: 20px;
+}
+#secc02 article{
+	display: inline-block;
+	vertical-align: top;
+}
+#secc02art01{
+	width: 55%;
+}
+#secc02art02{
+	width: 44%;
+}
+#secc02art01art01{
+	margin-left: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-bottom: 2px gray dashed;
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
+#secc02art01art02{
+	margin-left: 20px;
+}
+#secc02art01art02 img{
+	width:45%;
+	padding-bottom: 100px;
+}
+#secc02art01art02{
+	font-size: 1.3em;
+}
+#secc02art02 img{
+	position: absolute;
+}
+#secc02art02 img[src="img/5years.png"]{
+	position: absolute;
+	margin-top: 460px;
+}
+#texto{
+	padding-top: 10px;
+}
+#Text{
+	text-align: center;
+}
+#seccFoo01 article span{
+	position: relative;
+	top:-18px;
+	display: inline-block;
+
+}
+#seccFoo02art01 article{
+	margin: 0px auto;
+	display:inline-block;
+	text-align: center;
+	width:17%;
+}
+.letragrande{
+	font-size: 4em;
+}
+.letraverde{
+	color: #B9E671;
+}
+.soloimagen{
+	padding-top: 30px;
+}
