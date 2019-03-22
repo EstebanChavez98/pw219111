@@ -1,0 +1,101 @@
+@font-face{
+	font-family: 'Karla';
+	src: url("Karla/Karla-Bold.ttf");
+}
+@font-face{
+	font-family: 'Anton';
+	src: url("Anton/Anton-Regular.ttf");
+}
+@font-face{
+	font-family: 'Roboto';
+	src: url("Roboto/Roboto-Bold.ttf");
+}
+@font-face{
+	font-family: 'Heebo';
+	src: url("Heebo/Heebo-Bold.ttf");
+}
+body{
+	margin: 0px auto;
+	max-width: 1024px;
+	max-height: 1024px;
+}
+#seccHeader{
+	margin-top: 5px;
+	border-bottom: 2px solid black;
+}
+#seccHeader article{
+	display: inline-block;
+	width: 30%;
+	margin-bottom: 5px;
+}
+#seccHeaderart01 article{
+	display: inline-block;
+	vertical-align: middle;
+}
+#menu{
+	width:20px;
+}
+#lupa{
+	width:20px;
+}
+#seccHeaderart01{
+	text-align: 
+}
+#seccHeaderart02{
+	text-align: center;
+}
+#seccHeaderart03{
+	text-align: right;
+}
+#secc01 article{
+	margin-top: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+#secc01art01{
+	width: 70%;
+	border-right: 2px solid black;
+}
+#secc01art02{
+	width: 29%;
+}
+#indigo{
+	position: absolute;
+	margin-top: 160px;
+	font-size: 3em;
+}
+#planta{
+	margin-left: 50px;
+	width:85%;
+}
+#posted{
+	margin-left: 50px;
+}
+#secc01art01art01{
+	padding-left: 80px;
+	padding-right: 80px;
+	font-size: 12px;
+}
+#secc01art02{
+}
+#tela{
+	width:70%;
+}
+#persona{
+	width:70%;
+}
+.colorgris{
+	color: gray;
+}
+.karla{
+	font-family: 'Karla', sans-serif;
+}
+.anton{
+	font-family: 'Anton', sans-serif;
+}
+.roboto{
+	font-family: 'Roboto', sans-serif;
+}
+.heebo{
+	font-family: 'Heebo', sans-serif;
+}
