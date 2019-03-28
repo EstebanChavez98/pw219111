@@ -1,0 +1,75 @@
+article{
+	border-radius: 5px;
+	height: 50px;
+	margin-top: 10px;
+	text-align: center;
+	width: 150px;
+}
+
+#uno{
+	/*Si no soporta gradientes*/
+	background: purple;
+	background: linear-gradient(rgba(255,0,0,1), rgba(255,255,0,1));
+	-moz-background: linear-gradient(rgba(255,0,0,1), rgba(255,255,0,1));
+	-ms-background: linear-gradient(rgba(255,0,0,1), rgba(255,255,0,1));
+	-o-background: linear-gradient(rgba(255,0,0,1), rgba(255,255,0,1));
+	-webkit-background: linear-gradient(rgba(255,0,0,1), rgba(255,255,0,1));
+}
+#dos{
+	/*Si no soporta gradientes*/
+	background: purple;
+	background: linear-gradient(to left, purple, orange, blue);
+	-moz-background: linear-gradient(to left, purple, orange, blue);
+	-ms-background: linear-gradient(to left, purple, orange, blue);
+	-o-background: linear-gradient(to left, purple, orange, blue);
+	-webkit-background: linear-gradient(to left, purple, orange, blue);
+}
+#tres{
+	/*Si no soporta gradientes*/
+	background: purple;
+	background: linear-gradient(to right, purple, orange, blue);
+	-moz-background: linear-gradient(to right, purple, orange, blue);
+	-ms-background: linear-gradient(to right, purple, orange, blue);
+	-o-background: linear-gradient(to right, purple, orange, blue);
+	-webkit-background: linear-gradient(to right, purple, orange, blue);
+}
+#cuatro{
+	/*Si no soporta gradientes*/
+	background: purple;
+	background: linear-gradient(to right bottom, purple, orange, blue);
+	-moz-background: linear-gradient(to right bottom, purple, orange, blue);
+	-ms-background: linear-gradient(to right bottom, purple, orange, blue);
+	-o-background: linear-gradient(to right bottom, purple, orange, blue);
+	-webkit-background: linear-gradient(to right bottom, purple, orange, blue);
+}
+#cinco{
+	/*Si no soporta gradientes*/
+	background: purple;
+	background: linear-gradient(to left bottom, purple, orange, blue);
+	-moz-background: linear-gradient(to left bottom, purple, orange, blue);
+	-ms-background: linear-gradient(to left bottom, purple, orange, blue);
+	-o-background: linear-gradient(to left bottom, purple, orange, blue);
+	-webkit-background: linear-gradient(to left bottom, purple, orange, blue);
+}
+#seis{
+	/*Si no soporta gradientes*/
+	background: purple;
+	background: linear-gradient(90deg, purple, orange, blue);
+	-moz-background: linear-gradient(90deg, purple, orange, blue);
+	-ms-background: linear-gradient(90deg, purple, orange, blue);
+	-o-background: linear-gradient(90deg, purple, orange, blue);
+	-webkit-background: linear-gradient(90deg, purple, orange, blue);
+}
+#siete{
+	/*Si no soporta gradientes*/
+	background: purple;
+	background: repeating-linear-gradient(90deg, black, white, black 3%);
+	-moz-background: repeating-linear-gradient(90deg, black, white, black 3%);
+	-ms-background: repeating-linear-gradient(90deg, black, white, black 3%);
+	-o-background: repeating-linear-gradient(90deg, black, white, black 3%);
+	-webkit-background: repeating-linear-gradient(90deg, black, white, black 3%);
+}
+.texto{
+	position: relative;
+	top: 15px;
+}
