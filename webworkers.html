@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>WebWorker</title>
+</head>
+<body>
+	<p>Bots de Badabun: <div id="resultado"></div></p>
+	<button onClick="iniciarWorker();">Iniciar</button>
+	<button onClick="paraWorker();">Detener</button>
+
+	<p>Bots de T-Series: <div id="resultado2"></div></p>
+	<button onClick="iniciarWorker2();">Iniciar</button>
+	<button onClick="paraWorker2();">Detener</button>
+	<script type="text/javascript">
+		var w1;
+		var w2;
+		function iniciarWorker(){
+			//Preguntamos si lo soporta
+			if(typeof(w1) == "undefined"){
+				w1 = new Worker('demoWorker.js');
+				w1.onmessage = function(event){
+					document.getElementById('resultado').innerHTML = event.data;
+				}
+			}
+			else
+			{
+				alert("El navegador no soporte WebWorkers");
+			}
+
+		}
+		function paraWorker(){
+			w1.terminate();
+			w1 = undefined;
+		}
+
+		function iniciarWorker2(){
+			//Preguntamos si lo soporta
+			if(typeof(w2) == "undefined"){
+				w2 = new Worker('demoWorker.js');
+				w2.onmessage = function(event){
+					document.getElementById('resultado2').innerHTML = event.data;
+				}
+			}
+			else
+			{
+				alert("El navegador no soporte WebWorkers");
+			}
+
+		}
+		function paraWorker2(){
+			w2.terminate();
+			w2 = undefined;
+		}
+	</script>
+</body>
+</html>
